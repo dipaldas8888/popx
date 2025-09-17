@@ -1,0 +1,16 @@
+
+@import "tailwindcss";
+
+.phone-card {
+  width: 375px;
+  height: 812px;
+  
+  border-radius: 2px;
+}
+
+@media (max-width: 420px) {
+  .phone-card {
+    width: min(92vw, 360px);
+    height: auto; 
+  }
+}

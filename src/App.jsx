@@ -1,13 +1,18 @@
-import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
+import Account from "./pages/Account";
+import Home from "./pages/Home";
 
-function App() {
+export default function App() {
   return (
-    <>
-      <h1 className="flex items-center text-align text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </>
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-8">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/account" element={<Account />} />
+      </Routes>
+    </div>
   );
 }
-
-export default App;

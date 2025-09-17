@@ -1,4 +1,3 @@
-/** tailwind.config.cjs */
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
@@ -8,6 +7,9 @@ module.exports = {
           purple: "#6C00FF",
           lightPurple: "#EBDCFF",
         },
+      },
+      fontFamily: {
+        rubik: ["Rubik", "sans-serif"],
       },
     },
   },
