@@ -5,8 +5,9 @@ export default function Signup() {
     <div className="min-h-screen flex items-center justify-center bg-gray-100 p-6">
       <div className="phone-card bg-white border border-gray-200 shadow-sm rounded-sm flex flex-col">
         <div className="p-6">
-          <h2 className="text-2xl font-extrabold text-gray-900 mb-4 font-rubik">
-            Create your PopX account
+          <h2 className="text-2xl font-extrabold text-gray-900 mb-4 font-rubik leading-tight">
+            <span className="block">Create your</span>
+            <span className="block">PopX account</span>
           </h2>
         </div>
 
@@ -15,8 +16,8 @@ export default function Signup() {
             <div className="relative">
               <label className="input-label-overlay">Full Name*</label>
               <input
-                placeholder="Marry Doe"
-                className="form-input"
+                defaultValue="Marry Doe"
+                className="form-input input-filled"
                 type="text"
               />
             </div>
@@ -24,8 +25,8 @@ export default function Signup() {
             <div className="relative">
               <label className="input-label-overlay">Phone number*</label>
               <input
-                placeholder="Marry Doe"
-                className="form-input"
+                defaultValue="Marry Doe"
+                className="form-input input-filled"
                 type="tel"
               />
             </div>
@@ -33,8 +34,8 @@ export default function Signup() {
             <div className="relative">
               <label className="input-label-overlay">Email address*</label>
               <input
-                placeholder="Marry Doe"
-                className="form-input"
+                defaultValue="Marry Doe"
+                className="form-input input-filled"
                 type="email"
               />
             </div>
@@ -42,17 +43,17 @@ export default function Signup() {
             <div className="relative">
               <label className="input-label-overlay">Password*</label>
               <input
+                defaultValue="Marry Doe"
                 type="password"
-                placeholder="Mary Doe"
-                className="form-input"
+                className="form-input input-filled"
               />
             </div>
 
             <div className="relative">
               <label className="input-label-overlay">Company name</label>
               <input
-                placeholder="Marry Doe"
-                className="form-input"
+                defaultValue="Marry Doe"
+                className="form-input input-filled"
                 type="text"
               />
             </div>
